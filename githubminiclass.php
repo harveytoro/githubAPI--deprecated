@@ -37,6 +37,7 @@ private $token = 'ACCESS TOKEN HERE';
 		$ch = curl_init();
     	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     	$headers  =  array( "Accept:application/json" );
+    	curl_setopt($ch, CURLOPT_USERAGENT, "SOME USER AGENT HERE");
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     	curl_setopt($ch, CURLOPT_URL, $url);
     	$data = curl_exec($ch);
