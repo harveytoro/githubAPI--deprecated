@@ -15,7 +15,7 @@ $obj = new github();
 $username = 'harveytoro';
 $path = '1WelcomePost.html';
 $repo_name = 'myblog';
-$content = $obj->get\_file\_content($username, $repo_name, $path);
+$content = $obj->get_file_content($username, $repo_name, $path);
  
 echo $content;
 ```
