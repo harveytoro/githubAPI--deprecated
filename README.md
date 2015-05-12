@@ -8,29 +8,17 @@ I use the Github API quite a lot so am going to start posting some of my code in
 
 Example Usage Usage:
 
->require 'githubminiclass.php';
+```php
+require 'githubminiclass.php';
 
-#
->$obj = new github();
-
-#
-
->$username = 'harveytoro';
-
-#
->$path = '1WelcomePost.html';
-
-#
->$repo_name = 'myblog';
-
-#
->$content = $obj->get\_file\_content($username, $repo_name, $path);
-
-# 
->echo $content;
-
-
-
+$obj = new github();
+$username = 'harveytoro';
+$path = '1WelcomePost.html';
+$repo_name = 'myblog';
+$content = $obj->get\_file\_content($username, $repo_name, $path);
+ 
+echo $content;
+```
 ___
 
 ###More code coming soon.
