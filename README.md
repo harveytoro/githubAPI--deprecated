@@ -12,7 +12,6 @@ Example Usage Usage:
 ```php
 require 'githubminiclass.php';
 
-=======
 
 
 $obj = new github();
@@ -26,9 +25,9 @@ echo $content;
 
 
 
-=======
+
 $content = $obj->get_file_content($username, $repo_name, $path);
  
 echo $content;
-```
+
 
